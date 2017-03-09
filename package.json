@@ -1,0 +1,22 @@
+{
+  "name": "glwiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "ins": "npm i & cp node_modules/marked/marked.min.js docs/marked.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hiroki",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/isomorphic-fetch": "0.0.33",
+    "@types/marked": "0.0.28",
+    "@types/node": "7.0.7",
+    "marked": "0.3.6"
+  }
+}
